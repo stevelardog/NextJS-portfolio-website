@@ -3,7 +3,7 @@ import Link from 'next/link'
 import React, {useState, useEffect} from 'react'
 import {AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai'
 import {FaGithub, FaLinkedinIn} from 'react-icons/fa'
-import {BsFillPersonLinesFill} from 'react-icons/bs'
+import inpic from '../public/assets/in.png'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false)
@@ -29,7 +29,7 @@ const Navbar = () => {
 
     <div className={shadow ? 'fixed w-full h-20 shadow-xl z-[100] bg-[#ecf0f3]' : 'fixed w-full h-20 z-[100] bg-[#ecf0f3]'}>
       <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
-      <Link href='/'><Image src="/../public/assets/in.png" alt="/" width='125' height='50' /></Link>
+      <Link href='/'><Image src={inpic} alt="/" width='125' height='50' /></Link>
       <div>
         <ul className='hidden md:flex'>
           <Link href='/'>
