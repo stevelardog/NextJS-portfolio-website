@@ -24,7 +24,7 @@ const Projects = () => {
            projectUrl='http://wisconsindellscabinrental.com/' />
            <ProjectItem title='Weather App' 
            backgroundImg={weatherImg} 
-           projectDes='React JS, OpenWeatherMap API'
+           projectDes='Next JS, OpenWeatherMap API'
            projectUrl='https://openweathermapapisl.netlify.app/' />
             
             
